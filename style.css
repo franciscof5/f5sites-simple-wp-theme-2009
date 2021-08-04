@@ -1,0 +1,15 @@
+/*
+Theme Name: F5 Sites
+Theme URI: http://f5sites.com
+Description: Tema para F5 sites, sendo a base o tema aberto starkes
+Version: 2 (WP2.7.1)
+Author: Francisco Matelli
+Author URI: http://franciscomatelli.com
+Tags: francisco, matelli, francisco matelli, wp
+*/
+
+@import "style/css/reset.css";
+@import "style/css/typography.css";
+@import "style/css/layout.css";
+@import "style/css/f5sites-estilo.css";
+/*@import "style/css/index.css";*/

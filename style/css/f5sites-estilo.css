@@ -1,0 +1,184 @@
+/*@charset "utf-8";
+
+Francisco Matelli Matulovic
+Criado: 24 de Agosto de 2008
+Atualização: 3 de Abril de 2009
+*/
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	list-style:none;
+	text-decoration:none;
+}
+/*ul {
+	padding-left:20px;
+}*/
+img {
+	border:0;
+}
+body {
+	background-color:#1F92B3;
+	/*background:url(../imagens/fundos/franciscoMatelli-fundo.jpg);*/
+}
+/* HEADER */
+div#header {
+	background-color:#FFF;
+	margin:0 auto;
+	width:865px;
+	/*padding:5px 0 5px 20px;*/
+	/*height:80px;*/
+	border-bottom:4px solid #18718c;
+}
+div#header img {height:50px;}
+
+/* MENU */
+div#menu {
+	/*margin:auto;*/
+	width:100%;
+	height:30px;
+	background:url(../images/bg-div-button.png) #1F92B3;
+}
+div#menu ul {
+	width:865px;
+	margin:auto;
+}
+div#menu ul li {
+	background:url(../images/bg-button.png) repeat-x bottom #1F92B3;
+	/*border-bottom:5px solid #1F92B3;
+	border-top:5px solid #1F92B3;*/
+	height:30px;
+	float:left;
+	padding:0px 10px 0px 10px;
+	margin-left:2px;
+	line-height:30px;
+}
+
+div#menu ul li a {
+	color:#CC9900;
+	font-size:13px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	font-family:Trebuchet MS;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+div#menu ul li:hover {
+	color:#1F92B3;
+	background:#18718c;
+	/*border-bottom:4px solid #FFF;
+	border-top:4px solid #FFF;*/
+}
+
+/* CONTEUDO DIVIDIDO EM 2 COLUNAS */
+div.meio {
+	background-color:#FFF;
+	/*padding:10px;*/
+	position:relative;
+	display:table;
+	width:865px;
+	margin:auto;
+	/* */
+	border-top:4px solid #18718c;
+	border-bottom:4px solid #18718c;
+}
+div#conteudo {
+	/*float:right;*/
+	display:table-cell;
+	/*padding:10px;*/
+	width:650px;
+	background-color:#99FF99;
+}
+div#conteudo h1 {
+	font-size:16px;
+	color:#1F92B3;
+}
+div#conteudo p {
+	color: #666666;
+}
+div#conteudo a{
+	color:#1F92B4;
+}
+div#conteudo a:hover{
+	color:#003399;
+}
+/* SIDEBAR */
+div#sidebar {
+	/*float:left;
+	display:table-cell;*/
+	width:250px;
+	background-color:#EEE;
+	padding:10px;
+}
+/* Footer, CSS corrigido e identado dia 29 de março de 2009 */
+div#footer {
+	/* posicao /
+	clear:both;*/
+	margin:auto;
+	padding-top:10px;
+/*	position:relative;*/
+	width:865px;
+	/*height:100%;*/
+	/* design */
+	color:#1F92B4;
+	background-color:#FFF;
+	font-size:12px;
+	text-align:center;
+	margin-top:20px;
+	/* */
+	border-top:4px solid #18718c;
+}
+	/* Footer tabelinha */
+	div#footer div {
+		margin:auto;
+		width:700px;
+		height:100px;
+	}
+	/*div#footer table {
+		width:865px;
+	}
+	div#footer table tr {
+		vertical-align:top;
+	}
+	div#footer table thead a {
+		color:#666666;
+	}
+	div#footer table tbody a {
+		color:#999999;
+	}*/
+	div#footer ul {
+		text-align:left;
+		float:left;
+	}
+	div#footer ul ul {
+		display:inline;
+	}
+	div#footer ul ul li{
+		width:150px;
+	}
+	div#footer ul ul li a{
+		color:#999999;
+	}
+	div#footer ul ul li a:hover {
+		color:#1F92B3;
+	}
+	div#footer ul ul li.titulo a{
+		color:#18718c;
+		font-weight:bold;
+	}
+	/*div#footer ul li a {
+		float:left;
+	}*/
+
+/* Footer resto */
+div#footer a{
+	color:#1F92B4;
+}
+div#footer a:hover{
+	color:#003399;
+}
+div#footer img{
+	padding:10px 50px 5px 50px;
+}
